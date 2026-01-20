@@ -1,4 +1,4 @@
-# Google Play Store Dataset Sample
+# Google Play Store データセットサンプル
 
 <h2>1,070件のレコードのサンプルデータセット</h2>
 
