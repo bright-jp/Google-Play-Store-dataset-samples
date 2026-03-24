@@ -1,60 +1,60 @@
-# Google Play Store データセットサンプル
+# Google Play Store Dataset Sample
 
-<h2>1,070件のレコードのサンプルデータセット</h2>
+<h2>1,070件のレコードを含むサンプルdataset</h2>
 
-<a href="https://brightdata.jp">
+<a href="https://brightdata.jp/products/datasets/google-play-store">
     <img src="https://github.com/bright-jp/Google-Play-Store-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
-この**Google Play Store Dataset Sample**には**1,070件のレコード**が含まれており、**Bright Data API**を使用して抽出されました。
+この**Google Play Store Dataset Sample**には**1,070件のレコード**が含まれており、**Bright Data API**を使用して抽出されています。
 
 ## Data Points
 
 | Field Name | Description |
 |------------|-------------|
-| `url` | Google Play Store上のアプリページへのURLリンクです。 |
-| `title` | Google Play Storeに掲載されているアプリの正式名称です。 |
-| `developer` | アプリを作成した開発者または企業の名称です。 |
-| `monetization_features` | アプリ内課金など、アプリの収益化戦略に関する情報です。 |
-| `images` | スクリーンショットやプロモーション画像など、アプリに関連する画像のURLです。 |
-| `about` | 開発者が提供するアプリの詳細説明です。 |
-| `data_safety` | アプリのデータ安全性およびプライバシー運用に関する情報です。 |
-| `rating` | 数値で表される、アプリの平均ユーザー評価です。 |
-| `number_of_reviews` | アプリに投稿されたユーザーレビューの総数です。 |
-| `star_reviews` | 星評価（1〜5つ星）別のユーザーレビュー内訳です。 |
-| `reviews` | アプリに関するユーザーレビューおよびフィードバックの集合です。 |
-| `what_new` | アプリに加えられた最新の更新内容または変更点の説明です。 |
-| `more_by_this_developer` | 同一開発者によるGoogle Play Store上の他のアプリ一覧です。 |
-| `content_rating` | 利用に適した年齢層を示す、アプリのコンテンツレーティングです。 |
-| `downloads` | Google Play Storeからアプリがダウンロードされた回数です。 |
-| `play_on_pc` | アプリがPCプラットフォームに対応しているかどうかに関する情報です。 |
-| `minimum_requirements` | デバイス上でアプリを効果的に実行するために必要なシステム要件です。 |
-| `country` | アプリが利用可能、または人気のある国・地域です。 |
-| `app_category` | Google Play Store上でのアプリのカテゴリまたはジャンルです。 |
-| `id` | Google Play Store上のアプリ固有の識別子です。 |
-| `version` | ダウンロード可能なアプリの現在のバージョンです。 |
-| `app_icon` | ブランディングおよび識別に使用されるアプリアイコン画像のURLです。 |
-| `price` | 有料アプリの場合の購入価格です。 |
-| `currency` | アプリ価格が表示される通貨です。 |
-| `developer_email` | 通常はサポートや問い合わせのための、アプリ開発者の連絡先メールアドレスです。 |
+| `url` | Google Play Store上のアプリページへのURLリンク。 |
+| `title` | Google Play Storeに掲載されているアプリの正式タイトル。 |
+| `developer` | アプリを作成した開発者または企業の名前。 |
+| `monetization_features` | アプリ内課金など、アプリの収益化戦略に関する情報。 |
+| `images` | スクリーンショットやプロモーション画像を含む、アプリに関連する画像のURL。 |
+| `about` | 開発者によって提供された、アプリの詳細説明。 |
+| `data_safety` | アプリのデータ安全性およびプライバシー慣行に関する情報。 |
+| `rating` | 数値で表される、アプリの平均ユーザー評価。 |
+| `number_of_reviews` | アプリに投稿されたユーザーレビューの総数。 |
+| `star_reviews` | 星評価別（1〜5つ星）のユーザーレビューの内訳。 |
+| `reviews` | アプリに関するユーザーレビューとフィードバックのコレクション。 |
+| `what_new` | アプリに加えられた最新のアップデートまたは変更の説明。 |
+| `more_by_this_developer` | 同じ開発者によってGoogle Play Storeで提供されている他のアプリの一覧。 |
+| `content_rating` | 利用に適した年齢層を示す、アプリのコンテンツレーティング。 |
+| `downloads` | Google Play Storeからアプリがダウンロードされた回数。 |
+| `play_on_pc` | アプリがPCプラットフォームに対応しているかどうかに関する情報。 |
+| `minimum_requirements` | デバイス上でアプリを効果的に実行するために必要なシステム要件。 |
+| `country` | アプリが利用可能、または人気のある国または地域。 |
+| `app_category` | Google Play Store上でアプリが属するカテゴリまたはジャンル。 |
+| `id` | Google Play Store上のアプリの一意識別子。 |
+| `version` | ダウンロード可能なアプリの現在のバージョン。 |
+| `app_icon` | ブランディングおよび識別に使用されるアプリのアイコン画像のURL。 |
+| `price` | 有料アプリである場合の、アプリ購入費用。 |
+| `currency` | アプリ価格が表示される通貨。 |
+| `developer_email` | 通常はサポートや問い合わせ用の、アプリ開発者の連絡先メールアドレス。 |
 
 
 ## Use Cases
 
-### 1. Market Analysis
-アプリのダウンロード数、評価、レビューの傾向を分析し、人気カテゴリや潜在的な市場のギャップを特定します。
+### 1. 市場分析
+アプリのダウンロード数、評価、レビューのトレンドを分析し、人気カテゴリや潜在的な市場ギャップを特定します。
 
-### 2. Competitor Benchmarking
-アプリの機能やレビューを比較して競合に対するベンチマークを行い、アプリ提供内容の改善につなげます。
+### 2. 競合ベンチマーク
+アプリの機能やレビューを比較して競合とのベンチマークを行い、アプリの提供価値を改善します。
 
-### 3. User Sentiment Analysis
-レビューおよび評価データを活用して感情分析を実施し、ユーザー満足度や改善領域に関するインサイトを得ます。
+### 3. ユーザー感情分析
+レビューと評価データを活用して感情分析を実施し、ユーザー満足度や改善領域に関するインサイトを得ます。
 
 
 
 ## File Formats
 
-データセットは複数の形式で利用可能です:
+datasetは複数の形式で利用可能です:
 - **CSV**（このサンプルに含まれています）
 - **JSON**
 - **NDJSON**
@@ -75,8 +75,8 @@
 
 ## Update Frequency
 
-データセットはさまざまなスケジュールで更新できます:
-- **Once**（一回限りの配信）
+datasetsはさまざまなスケジュールで更新できます:
+- **Once**（1回限りの配信）
 - **Daily**
 - **Weekly**
 - **Monthly**
@@ -85,14 +85,14 @@
 
 ## Data Enrichment
 
-特定の要件に基づき、追加のデータポイントでデータセットを強化できます。カスタムのエンリッチメントオプションについてはお問い合わせください。
+特定の要件に基づいて追加のデータポイントでdatasetを強化できます。カスタムenrichmentオプションについてはお問い合わせください。
 
-**[Google Play Storeの完全なデータセットを入手する](https://brightdata.jp/products/datasets/google-play-store)**
+**[Google Play Store datasetの全文を取得](https://brightdata.jp/products/datasets/google-play-store)**
 
 ---
 
-## Free Access for Researchers and NGOs
+## 研究者およびNGO向けの無料アクセス
 
-Bright Initiativeは、環境および社会的課題に取り組む学術研究者、NGO、NPO向けに、**[Web Scraper APIs](https://brightdata.jp/products/web-scraper)**および**[ready-to-use datasets](https://brightdata.jp/products/datasets)**への無料アクセスを提供しています。 
+Bright Initiativeは、環境問題や社会課題に取り組む学術研究者、NGO、NPO向けに、**[Web Scraper APIs](https://brightdata.jp/products/web-scraper)**および**[すぐに使えるdatasets](https://brightdata.jp/products/datasets)**への無料アクセスを提供しています。 
 
-[brightinitiative.com](https://brightinitiative.com)から無料アクセスにお申し込みください。
+無料アクセスの申請は[brightinitiative.com](https://brightinitiative.com)から行えます。
